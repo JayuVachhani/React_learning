@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 
 
-ReactDOM.render(
- <>
-    <App imgsrc = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.sduV_GJOFkZ_Z2NP2Kux4AHaEK%26pid%3DApi&f=1"
+ReactDOM.render(<App />,document.getElementById('root')
+);
+   /* <App imgsrc = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.sduV_GJOFkZ_Z2NP2Kux4AHaEK%26pid%3DApi&f=1"
     title = "Money Heist"
     category = "Netflix Original Series"
     link = "https://www.netflix.com/in/title/80192098" />
@@ -30,16 +30,4 @@ ReactDOM.render(
     <App imgsrc = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.N6ulMFko8BoozbH3kWCuNAHaEK%26pid%3DApi&f=1"
     title = "DareDavil"
     category = "Netflix Original Series"
-    link = "https://www.netflix.com/in/title/80018294" />
-    </>
-    
-    
-    
-    
-    
-    ,
-  
-  
-  document.getElementById('root')
-);
-
+    link = "https://www.netflix.com/in/title/80018294" /> */

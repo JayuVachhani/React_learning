@@ -3,13 +3,19 @@
   margin: 0;
   padding: 0;
   background-color:lightblue ;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.axios.com%2F3h4lo9wtvzD6PCRhDy4BnrKsjgM%3D%2F0x0%3A1280x720%2F1920x1080%2F2019%2F01%2F16%2F1547674819070.gif&f=1&nofb=1");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  
+
 }
 .cards{
   width: 100%;
   height: auto  ;
 }
 .card{
-  margin: 6%;
+  margin: 5.5%;
   background-color: white;
   border-radius: 12px;
   float: left;
@@ -65,4 +71,10 @@ button{
   border: 1px solid yellowgreen;
   border-radius: 5px;
   margin-bottom: 5px;
+}
+
+.heading{
+  text-align: center;
+  color:crimson;
+  margin-top: 20px;
 }

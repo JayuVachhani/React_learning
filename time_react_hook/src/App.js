@@ -26,7 +26,8 @@ setInterval(UpdateTime,1000)
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h2>{ctime}</h2>       
+        <h2>{ctime}</h2>
+        <h3>React 😊</h3>       
       </header>
     </div>
     
